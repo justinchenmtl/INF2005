@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document **/
+
+.section_top {
+    background-image: url(img/uqam-head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    color: rgba(9, 0, 3, 0.94);
+    text-align: left;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+}
+
+
+.section_top p{
+    font-size: 26px;
+    float: right;
+    color: white;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+
+
+#top a img {
+    width: 300px;
+    height:100px;
+    color: white;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.quitter {
+    width: 1200px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

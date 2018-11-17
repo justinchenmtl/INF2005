@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document **/
+
+.section_top {
+    width: 100%;
+    color: rgba(9, 0, 3, 0.94);
+    background-color: white;
+    float: left;
+    border-radius: 20px;
+}
+
+
+#top_logo {
+    float: left;
+}
+
+.top_nav {
+    float: right;
+}
+
+#top_logo a img {
+    width: 400px;
+    height:120px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.top_nav ul{
+    list-style: none;
+}
+.top_nav li {
+    float: right;
+    line-height: 30px;
+    background: #8ae263;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.top_nav a {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    height: 30px;
+    display: block;
+}
+
+.top_nav a:link {
+    color: black;
+}
+
+.top_nav a:visited {
+    color: navy;
+    text-decoration: underline;
+}
+
+.top_nav a:hover {
+    color: navy;
+    font-weight: bold;
+}

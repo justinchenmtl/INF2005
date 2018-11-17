@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document **/
+
+.section_foot{
+    font-weight: bold;
+    font-size: 20px;
+}
+.top_foot {
+    clear: both;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: blue;
+    background: linear-gradient(blue, gray);
+}
+
+.quick_link li{
+    display: inline;
+}
+.quick_link ul{
+    text-align: center;
+    list-style-type: none ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.quick_link ul li a{
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+.top_foot p {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}

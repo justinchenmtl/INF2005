@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Études secondaires et collégiales</title>
+            <link rel="stylesheet" href="css/corp.css"/>
+        </head>
+        <body class="fr">
+            <link rel="stylesheet" href="css/tete.css"/>
+            <link rel="stylesheet" href="css/pied.css"/>
+
+            <div class="section_top" id="top">
+                <a class="web_logo" href="accueil.html">
+                    <img src="css/img/uqam-logo.jpg" alt="UQAM Logo"/>
+                </a>
+                <p>Admission d'étude à l'UQAM</p>
+            </div>
+            <div class="quitter">
+                <a href="">Aide |</a>
+                <a href="">Quitter</a>
+
+            </div>
+
+            <div class="head" id="head">
+                <p style="text-align: right">
+                    Demande d'admission aux études de premier cycle
+                </p>
+                <p style="text-align: center">
+                    RENSEIGNEMENTS SUR LES ÉTUDES SECONDAIRES ET COLLÉGIALES
+                </p>
+            </div>
+
+            <form action="" method="post" id="formSecondaire" name="formSecondaire">
+
+            <table class="table" id="table">
+                <hr>
+                <p>
+                    Veuillez indiquer tous les programmes d’études de niveaux secondaire et collégial que vous avez
+                    entrepris ou complétés.
+                </p>
+                <tr>
+                    <td >
+                        <label for="derniereAnnee">Dernière année du secondaire complétée au Québec*</label>
+                    </td>
+                    <td >
+                        <input type="text" id="derniereAnnee" name="derniereAnnee" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid goldenrod">Période de fréquentation</td>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        De (année)<input type="text" id="derAnneeDebut" size="10">
+                        à (année) <input type="text" id="derAnneeFin" size="10">
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="2" style="font-weight: bold">
+                        Diplôme d’études secondaires ou collégiales poursuivies à l’extérieur du Québec
+                        <input type="radio" name="diplomeExterieur" value="diplomeExterieur">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="nomDiplome">Nom du diplôme</label></td>
+                    <td><input type="text" id="nomDiplome" name="nomDiplome" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Période de fréquentation</td>
+                    <td>De (année)<input type="text" id="secondaireDebut" size="10">
+                        à (année) <input type="text" id="secondaireFin" size="10"></td>
+                </tr>
+                <tr>
+                    <td>Date d’obtention</td>
+                    <td>Mois<input type="text" id="mois" size="10">
+                        Année<input type="text" id="annee" size="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="discipline">Discipline ou spécialisation</label></td>
+                    <td><input type="text" id="discipline" name="discipline" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="institution">Institution où vous avez poursuivi vos études</label></td>
+                    <td><input type="text" id="institution" name="institution" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="pays">Pays</label></td>
+                    <td><input type="text" id="pays" name="pays" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td style="border-top: 1px solid goldenrod">
+                        Autre diplôme de niveau collégial
+                    </td>
+                    <td style="border-top: 1px solid goldenrod">
+                        DEC<input type="radio" name="dec" value="1">
+                        AEC, CEC<input type="radio" name="dec" value="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Période de fréquentation</td>
+                    <td>De (année)<input type="text" id="decDebut" size="10">
+                        à (année) <input type="text" id="decFin" size="10"></td>
+                </tr>
+                <tr>
+                    <td>Date d’obtention</td>
+                    <td>Mois<input type="text" id="decMois" size="10">
+                        Année<input type="text" id="decAnnee" size="10"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="decDiscipline">Discipline ou spécialisation</label></td>
+                    <td><input type="text" id="decDiscipline" name="decDiscipline" size="50"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="decInstitution">Institution où vous avez poursuivi vos études en vue de l’obtention de ce diplôme</label>
+                    </td>
+                    <td>
+                        <input type="text" id="decInstitution" name="decInstitution" size="50">
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td style="border-bottom: 1px solid goldenrod">
+
+                    </td>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="obtenu" value="1">Obtenu
+                                <input type="radio" name="obtenu" value="2">À obtenir
+                            </li>
+                            <li>
+                                <input type="radio" name="obtenu" value="3">Ne sera pas obtenu
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+            </table>
+            <hr>
+            </form>
+
+            <div class="section_foot">
+                <div class="top_foot">
+                    <div class="quick_link">
+                        <ul>
+                            <li><a href="https://uqam.ca/">UQAM |</a></li>
+                            <li><a href="https://etudier.uqam.ca/">Futurs Étudiants |</a></li>
+                            <li><a href="https://diplomes.uqam.ca/">Diplômés |</a></li>
+                            <li><a href="https://uqam.ca/personnel/">Personnel |</a></li>
+                            <li><a href="http://salledepresse.uqam.ca/">Médias |</a></li>
+                            <li><a href="https://etudier.uqam.ca/programmes/">Programme et cours |</a></li>
+                            <li><a href="https://portailetudiant.uqam.ca/">Portail Étudiant |</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_foot">
+                    <p>
+                        © 2018 Université du Québec à Montréal-Tous droits réservés.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </html>

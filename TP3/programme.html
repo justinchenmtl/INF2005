@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Programme demandés</title>
+            <link rel="stylesheet" href="css/corp.css"/>
+        </head>
+        <body class="fr">
+            <link rel="stylesheet" href="css/tete.css"/>
+            <link rel="stylesheet" href="css/pied.css"/>
+
+            <div class="section_top" id="top">
+                <a class="web_logo" href="accueil.html">
+                    <img src="css/img/uqam-logo.jpg" alt="UQAM Logo"/>
+                </a>
+                <p>Admission d'étude à l'UQAM</p>
+            </div>
+            <div class="quitter">
+                <a href="">Aide |</a>
+                <a href="">Quitter</a>
+
+            </div>
+
+            <div class="head" id="head">
+                <p style="text-align: right">
+                    Demande d'admission aux études de premier cycle
+                </p>
+                <p style="text-align: center">
+                    PROGRAMMES DEMANDÉS
+                </p>
+            </div>
+
+            <form action="" method="post" id="formProgramme" name="formProgramme">
+            <table class="table" id="table">
+                <hr>
+                <p>
+                    Veuillez consulter les dates limites d’admission : www.etudier.uqam.ca/dates
+                </p>
+                <tr>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        Je désire entreprendre mes études au trimestre:
+                    </td>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="session" value="1">Hiver
+                                <input type="radio" name="session" value="2">Été
+                                <input type="radio" name="session" value="3">Automne
+                            </li>
+                            <li>
+                                <label for="annee">Année</label>
+                                <input type="text" name="annee" id="annee" size="20">
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Premier choix</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="titreUn">Titre du programme*</label></td>
+                    <td><input type="text" id="titreUn" name="titreUn" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="codeUn">Code du programme*</label></td>
+                    <td><input type="text" id="codeUn" name="codeUn" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td>Régime*</td>
+                    <td>
+                        <ul>
+                            <li><input type="radio" name="tempComplet" value="tempComplet">Temps complet (12 crédits et plus)</li>
+                            <li><input type="radio" name="tempPartiel" value="tempPartiel">Temps partiel (11 crédits et moins)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid goldenrod">Type du programme</td>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="baccalaureat" value="baccalaureat">Baccalauréat
+                                <input type="radio" name="majeure" value="majeure">Majeure
+                            </li>
+                            <li>
+                                <input type="radio" name="mineure" value="mineure">Mineure
+                                <input type="radio" name="certificate" value="certificate">Certificate
+                            </li>
+                            <li>
+                                <input type="radio" name="programmeCourt" value="programmeCourt">Programme court
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        <p>Deuxième choix</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="titreDeux">Titre du programme</label></td>
+                    <td><input type="text" id="titreDeux" name="titreDeux" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="codeDeux">Code du programme</label></td>
+                    <td><input type="text" id="codeDeux" name="codeDeux" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td>Régime</td>
+                    <td>
+                        <ul>
+                            <li><input type="radio" name="tempComplet" value="tempComplet">Temps complet (12 crédits et plus)</li>
+                            <li><input type="radio" name="tempPartiel" value="tempPartiel">Temps partiel (11 crédits et moins)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        Type du programme
+                    </td>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="baccalaureat" value="baccalaureat">Baccalauréat
+                                <input type="radio" name="majeure" value="majeure">Majeure
+                            </li>
+                            <li>
+                                <input type="radio" name="mineure" value="mineure">Mineure
+                                <input type="radio" name="certificate" value="certificate">Certificate
+                            </li>
+                            <li>
+                                <input type="radio" name="programmeCourt" value="programmeCourt">Programme court
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        <p>Troisième choix (nous vous suggérons fortement un programme non contingenté)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="titreTrois">Titre du programme</label></td>
+                    <td><input type="text" id="titreTrois" name="titreTrois" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="codeTrois">Code du programme</label></td>
+                    <td><input type="text" id="codeTrois" name="codeTrois" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td>Régime</td>
+                    <td>
+                        <ul>
+                            <li><input type="radio" name="tempComplet" value="tempComplet">Temps complet (12 crédits et plus)</li>
+                            <li><input type="radio" name="tempPartiel" value="tempPartiel">Temps partiel (11 crédits et moins)</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        Type du programme
+                    </td>
+                    <td style="border-bottom: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="baccalaureat" value="baccalaureat">Baccalauréat
+                                <input type="radio" name="majeure" value="majeure">Majeure
+                            </li>
+                            <li>
+                                <input type="radio" name="mineure" value="mineure">Mineure
+                                <input type="radio" name="certificate" value="certificate">Certificate
+                            </li>
+                            <li>
+                                <input type="radio" name="programmeCourt" value="programmeCourt">Programme court
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <p style="margin: 20px 30px">
+                Certains programmes exigent des tests de sélection ou comportent des exigences particulières.
+                Consultez le www.etudier.uqam.ca/exigences-programmes-1er-cycle. Votre présence peut être
+                obligatoire en mars, enssvril ou en mai pour l’admission au trimestre d’automne.
+            </p>
+            <hr>
+            </form>
+
+            <div class="section_foot">
+                <div class="top_foot">
+                    <div class="quick_link">
+                        <ul>
+                            <li><a href="https://uqam.ca/">UQAM |</a></li>
+                            <li><a href="https://etudier.uqam.ca/">Futurs Étudiants |</a></li>
+                            <li><a href="https://diplomes.uqam.ca/">Diplômés |</a></li>
+                            <li><a href="https://uqam.ca/personnel/">Personnel |</a></li>
+                            <li><a href="http://salledepresse.uqam.ca/">Médias |</a></li>
+                            <li><a href="https://etudier.uqam.ca/programmes/">Programme et cours |</a></li>
+                            <li><a href="https://portailetudiant.uqam.ca/">Portail Étudiant |</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_foot">
+                    <p>
+                        © 2018 Université du Québec à Montréal-Tous droits réservés.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </html>

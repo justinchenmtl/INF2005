@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Inscription d'étude à UQAM</title>
+            <link rel="stylesheet" href="css/corp.css"/>
+        </head>
+        <body class="fr">
+            <link rel="stylesheet" href="css/tete.css"/>
+            <link rel="stylesheet" href="css/pied.css"/>
+
+            <div class="section_top" id="top">
+                <a class="web_logo" href="accueil.html">
+                    <img src="css/img/uqam-logo.jpg" alt="UQAM Logo"/>
+                </a>
+                <p>Admission d'étude à l'UQAM</p>
+            </div>
+            <div class="quitter">
+                <a href="">Aide |</a>
+                <a href="">Quitter</a>
+
+            </div>
+
+            <div class="head" id="head">
+                <p style="text-align: right">
+                    Demande d'admission aux études de premier cycle
+                </p>
+                <p style="text-align: center">
+                    IDENTIFICATION
+                </p>
+            </div>
+
+            <form action="" method="post" id="form_ident" name="form_ident">
+            <table class="table" id="table">
+                <tr><hr>
+                    <td><label for="nomFamille">Nom de famille à la naissance*</label></td>
+                    <td><input type="text" id="nomFamille" name="nomFamille" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prénom usuel*</label></td>
+                    <td><input type="text" id="prenom" name="prenom" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="dateNe">Date de naissance*</label></td>
+                    <td><input type="text" id="dateNe" name="dateNe" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Sexe</td>
+                    <td>
+                    <input type="radio" name="sex" value="1">Masculin
+                    <input type="radio" name="sex" value="2">Féminin
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cp">Code permanent (alphanumérique) si vous avez déjà étudié à l’UQAM*</label></td>
+                    <td><input type="text" id="cp" name="cp" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Citoyenneté</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="radio" name="citoyenne" value="1">Canadienne
+                            </li>
+                            <li>
+                                <input type="radio" name="citoyenne" value="2">Autre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="citoyennePrecise">Précisez</label>
+                                <input type="text" name="citoyennePrecise" id="citoyennePrecise" size="20">
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Statut au Canada</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="radio" name="statut" value="1">Citoyen canadien
+                                <input type="radio" name="statut" value="2">Amérindien
+                            </li>
+                            <li>
+                                <input type="radio" name="statut" value="3">Résident permanent
+                                <input type="radio" name="statut" value="4">Visa diplomatique
+                            </li>
+                            <li>
+                                <input type="radio" name="statut" value="5">Permis d’études
+                                <input type="radio" name="statut" value="6">Permis de séjour temporaire
+                            </li>
+                            <li>
+                                <input type="radio" name="statut" value="7">Permis de travail
+                                <input type="radio" name="statut" value="8">Réfugié
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="nas">No d’assurance sociale (Le NAS n’est pas obligatoire, si pour un reçu d’impôt.)</label></td>
+                    <td><input type="text" id="nas" name="nas" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="lieu">Lieu de naissance (ville)</label></td>
+                    <td><input type="text" id="lieu" name="lieu" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td style="border-top: 1px solid goldenrod">
+                        <label for="nomPere">Nom de famille du père à la naissance</label>
+                    </td>
+                    <td style="border-top: 1px solid goldenrod">
+                        <input type="text" id="nomPere" name="nomPere" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="prenomPere">Prénom usuel du père</label></td>
+                    <td><input type="text" id="prenomPere" name="prenomPere" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="nomMere">Nom de famille du Mère à la naissance</label></td>
+                    <td><input type="text" id="nomMere" name="nomMere" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenomMere">Prénom usuel de la mère</label></td>
+                    <td><input type="text" id="prenomMere" name="prenomMere" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Langue d’usage (Langue parlée le plus souvent à la maison)</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="radio" name="langueUsage" value="1">Français
+                            </li>
+                            <li>
+                                <input type="radio" name="langueUsage"  value="2">Anglais
+                            </li>
+                            <li>
+                                <input type="radio" name="langueUsage" value="3">Amérindien ou Inuktitut
+                            </li>
+                            <li>
+                                <input type="radio" name="langueUsage" value="4">Autre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="usagePrecise">Précisez</label>
+                                <input type="text" name="usagePrecise" id="usagePrecise" size="20">
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Langue maternelle (Première langue apprise et encore comprise)</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <input type="radio" name="langueMaternelle" value="1">Français
+                            </li>
+                            <li>
+                                <input type="radio" name="langueMaternelle"  value="2">Anglais
+                            </li>
+                            <li>
+                                <input type="radio" name="langueMaternelle" value="3">Amérindien ou Inuktitut
+                            </li>
+                            <li>
+                                <input type="radio" name="langueMaternelle" value="4">Autre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label for="maternellePrecise">Précisez</label>
+                                <input type="text" name="maternellePrecise" id="maternellePrecise" size="20">
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border-top: 1px solid goldenrod">
+                        <label for="cellulaire">Cellulaire</label>
+                    </td>
+                    <td style="border-top: 1px solid goldenrod">
+                        <input type="text" id="cellulaire" name="cellulaire" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="teleTravail">Téléphone au travail</label></td>
+                    <td><input type="text" id="teleTravail" name="teleTravail" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="teleDomicile">Téléphone à domicile</label></td>
+                    <td><input type="text" id="teleDomicile" name="teleDomicile" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="courriel">Courriel</label></td>
+                    <td><input type="text" id="courriel" name="courriel" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="adresse">Adresse de correspondance</label></td>
+                    <td><input type="text" id="adresse" name="adresse" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="cpCorrespond">Code postal</label></td>
+                    <td><input type="text" id="cpCorrespond" name="cpCorrespond" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="adrDiff">Adresse où vous résidez actuellement (si différente de l’adresse de correspondance)</label></td>
+                    <td><input type="text" id="adrDiff" name="adrDiff" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="cpDiff">Code postal</label></td>
+                    <td><input type="text" id="cpDiff" name="cpDiff" size="20"></td>
+                </tr>
+            </table>
+            <hr>
+            </form>
+
+            <div class="section_foot">
+                <div class="top_foot">
+                    <div class="quick_link">
+                        <ul>
+                            <li><a href="https://uqam.ca/">UQAM |</a></li>
+                            <li><a href="https://etudier.uqam.ca/">Futurs Étudiants |</a></li>
+                            <li><a href="https://diplomes.uqam.ca/">Diplômés |</a></li>
+                            <li><a href="https://uqam.ca/personnel/">Personnel |</a></li>
+                            <li><a href="http://salledepresse.uqam.ca/">Médias |</a></li>
+                            <li><a href="https://etudier.uqam.ca/programmes/">Programme et cours |</a></li>
+                            <li><a href="https://portailetudiant.uqam.ca/">Portail Étudiant |</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_foot">
+                    <p>
+                        © 2018 Université du Québec à Montréal-Tous droits réservés.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </html>

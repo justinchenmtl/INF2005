@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Études secondaires et collégiales</title>
+            <link rel="stylesheet" href="css/corp.css"/>
+        </head>
+        <body class="fr">
+            <link rel="stylesheet" href="css/tete.css"/>
+            <link rel="stylesheet" href="css/pied.css"/>
+
+            <div class="section_top" id="top">
+                <a class="web_logo" href="accueil.html">
+                    <img src="css/img/uqam-logo.jpg" alt="UQAM Logo"/>
+                </a>
+                <p>Admission d'étude à l'UQAM</p>
+            </div>
+            <div class="quitter">
+                <a href="">Aide |</a>
+                <a href="">Quitter</a>
+
+            </div>
+
+            <div class="head" id="head">
+                <p style="text-align: right">
+                    Demande d'admission aux études de premier cycle
+                </p>
+                <p style="text-align: center">
+                    RENSEIGNEMENTS SUR LES ÉTUDES UNIVERSITAIRES
+                </p>
+            </div>
+
+            <form action="" method="post" id="formUniversitaire" name="formUniversitaire">
+
+            <table class="table" id="table">
+
+                <hr>
+                <p>
+                    Les relevés de notes officiels portant les sceaux de l’établissement qui les ont émis et mentionnant
+                    les notes obtenues pour les cours suivis doivent être expédiés directement au Registrariat – Admission
+                    de l’UQAM par ces établissements et ce, à votre demande. Tout relevé de notes provenant d’un
+                    établissement d’enseignement hors Québec doit être accompagné d’un document émis par cet établissement
+                    permettant d’évaluer la notation utilisée.
+                </p>
+
+                <tr >
+                    <td style="border-top: 1px solid goldenrod">
+                        <input type="radio" id="diplomeBac" name="diplomeBac" value="diplomeBac">
+                        Diplôme le plus récent entrepris ou complété
+                    </td>
+                    <td style="border-top: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="obtenuBac" value="1">Obtenu
+                                <input type="radio" name="obtenuBac" value="2">À obtenir
+                            </li>
+                            <li>
+                                <input type="radio" name="obtenuBac" value="3">Ne sera pas obtenu
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="nomDiplomeBac">Nom du diplôme</label></td>
+                    <td><input type="text" id="nomDiplomeBac" name="nomDiplomeBac" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Période de fréquentation</td>
+                    <td>De (année)<input type="text" name="bacDebut" id="bacDebut" size="10">
+                        à (année) <input type="text" name="bacDebut" id="bacFin" size="10"></td>
+                </tr>
+                <tr>
+                    <td>Date d’obtention</td>
+                    <td>Mois<input type="text" name="bacMois" id="bacMois" size="10">
+                        Année<input type="text" name="bacAnnee" id="bacAnnee" size="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacCredit">Nombre de crédits complétés</label></td>
+                    <td><input type="text" id="bacCredit" name="bacCredit" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacDiscipline">Discipline ou spécialisation</label></td>
+                    <td><input type="text" id="bacDiscipline" name="bacDiscipline" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacInstitution">Institution où vous avez poursuivi vos études</label></td>
+                    <td><input type="text" id="bacInstitution" name="bacInstitution" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacPays">Pays</label></td>
+                    <td><input type="text" id="bacPays" name="bacPays" size="50"></td>
+                </tr>
+
+
+
+
+
+                <tr >
+                    <td style="border-top: 1px solid goldenrod">
+                        <input type="radio" id="diplomeBacAutre" value="diplomeBacAutre">
+                        Autre grade ou diplôme entrepris ou complété
+                    </td>
+                    <td style="border-top: 1px solid goldenrod">
+                        <ul>
+                            <li>
+                                <input type="radio" name="obtenuBacAutre" value="1">Obtenu
+                                <input type="radio" name="obtenuBacAutre" value="2">À obtenir
+                            </li>
+                            <li>
+                                <input type="radio" name="obtenuBacAutre" value="3">Ne sera pas obtenu
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="nomDiplomeBacAutre">Nom du diplôme</label></td>
+                    <td><input type="text" id="nomDiplomeBacAutre" name="nomDiplomeBacAutre" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Période de fréquentation</td>
+                    <td>De (année)<input type="text" name="bacAutreDebut" id="bacAutreDebut" size="10">
+                        à (année) <input type="text" name="bacAutreDebut" id="bacAutreFin" size="10"></td>
+                </tr>
+                <tr>
+                    <td>Date d’obtention</td>
+                    <td>Mois<input type="text" name="bacAutreMois" id="bacAutreMois" size="10">
+                        Année<input type="text" name="bacAutreAnnee" id="bacAutreAnnee" size="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacAutreCredit">Nombre de crédits complétés</label></td>
+                    <td><input type="text" id="bacAutreCredit" name="bacAutreCredit" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacAutreDiscipline">Discipline ou spécialisation</label></td>
+                    <td><input type="text" id="bacAutreDiscipline" name="bacAutreDiscipline" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacAutreInstitution">Institution où vous avez poursuivi vos études</label></td>
+                    <td><input type="text" id="bacAutreInstitution" name="bacAutreInstitution" size="50"></td>
+                </tr>
+                <tr>
+                    <td><label for="bacAutrePays">Pays</label></td>
+                    <td><input type="text" id="bacAutrePays" name="bacAutrePays" size="50"></td>
+                </tr>
+            </table>
+            <hr>
+            </form>
+
+            <div class="section_foot">
+                <div class="top_foot">
+                    <div class="quick_link">
+                        <ul>
+                            <li><a href="https://uqam.ca/">UQAM |</a></li>
+                            <li><a href="https://etudier.uqam.ca/">Futurs Étudiants |</a></li>
+                            <li><a href="https://diplomes.uqam.ca/">Diplômés |</a></li>
+                            <li><a href="https://uqam.ca/personnel/">Personnel |</a></li>
+                            <li><a href="http://salledepresse.uqam.ca/">Médias |</a></li>
+                            <li><a href="https://etudier.uqam.ca/programmes/">Programme et cours |</a></li>
+                            <li><a href="https://portailetudiant.uqam.ca/">Portail Étudiant |</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_foot">
+                    <p>
+                        © 2018 Université du Québec à Montréal-Tous droits réservés.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </html>

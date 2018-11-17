@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Traiteur Écolier pour Enfants: RepaSain</title>
+            <link rel="stylesheet" href="css/corp.css"/>
+        </head>
+        <body class="fr">
+            <link rel="stylesheet" href="css/tete.css"/>
+            <link rel="stylesheet" href="css/pied.css"/>
+
+            <div class="section_top" id="top">
+                <div id="top_logo" >
+                    <a class="web_logo" href="accueil.html">
+                        <img src="css/img/webLogo.jpg" alt="RepaSain"/>
+                    </a>
+                    <nav class="top_nav">
+                        <ul class="top_nav">
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="commande.html">Commande</a></li>
+                            <li><a href="information.html">Information</a></li>
+                            <li><a href="accueil.html">Accueil</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr><br>
+            <div class="guide" id="guide">
+                   <a href="information.html">
+                       <img src="css/img/inf.jpg" alt="info">
+                   </a>
+                   <a href="commande.html">
+                       <img src="css/img/commande.jpg" alt="commande">
+                   </a>
+                   <a href="contact.html">
+                       <img src="css/img/contact.jpg" alt="contact">
+                   </a>
+            </div>
+            <hr>
+
+            <form action="index.php" method="POST">
+            <div class="section_commande" id="commande">
+                <h3>COMMANDEZ VOS REPAS EN LIGNE</h3>
+                <h5>Les champs marqués d'un * sont obligatoires</h5>
+                <div>
+                    <label for="prenom_parent">Prénom du parent*</label>&nbsp;&nbsp;
+                    <input type="text" name="prenomParent"  id="prenom_parent" size="30"/>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="nom_parent">Nom du parent*</label>&nbsp;&nbsp;
+                    <input type="text" name="nomParent" id="nom_parent" size="30"/><br><br>
+                </div>
+                <div>
+                    <label for="prenom_enfant">Prénom de l'enfant*</label>
+                    <input type="text" name="prenomEnfant" id="prenom_enfant" size="30"/>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="nom_enfant">Nom de l'enfant*</label>&nbsp;
+                    <input type="text" name="nomEnfant" id="nom_enfant" size="30"/><br><br>
+                </div>
+                <div>
+                    <label for="ecole">École de l'enfant*</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="ecole" id="ecole" size="30"/>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="age">Âge de l'enfant*</label>&nbsp;&nbsp;
+                    <input type="text" name="age" id="age" size="30"/><br><br>
+                </div>
+                <div>
+                    <p>Choisissez vos repas de Lundi à Vendredi</p>
+                    <label for="lundi">LUNDI*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="lundi" id="lundi">
+                        <option value=" ">&nbsp;</option>
+                        <option value= "1" >1. Poulet Général Tao</option>
+                        <option value= "2" >2. Paté Chinois</option>
+                    </select><br><br>
+                    <label for="mardi">MARDI*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="mardi" id="mardi">
+                        <option value=" ">&nbsp;</option>
+                        <option value="1">1. Macaroni Fromage</option>
+                        <option value="2">2. Hamburger</option>
+                    </select><br><br>
+                    <label for="mercredi">MERCREDI*</label>
+                    <select name="mercredi" id="mercredi">
+                        <option value=" ">&nbsp;</option>
+                        <option value="1">1. Spaghetti</option>
+                        <option value="2">2. Lasagne</option>
+                    </select><br><br>
+                    <label for="jeudi">JEUDI*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="jeudi" id="jeudi">
+                        <option value=" ">&nbsp;</option>
+                        <option value="1">1. Pennine Sauce Viande</option>
+                        <option value="2">2. Pizza Tomate Fromage</option>
+                    </select><br><br>
+                    <label for="vendredi">VENDREDI*</label>
+                    <select name="vendredi" id="vendredi">
+                        <option value=" ">&nbsp;</option>
+                        <option value="1">1. Pilaf au Saumon</option>
+                        <option value="2">2. Pad Thai au Poulet</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Soumettre"><br><br>
+                </div>
+                <div class="menu1" id="menu1">
+                    <img src="css/img/tao.jpg" alt="general tao">
+                    <img src="css/img/chinois.jpg" alt="pate chinois">
+                    <img src="css/img/macaroni.jpg" alt="macaroni">
+                    <img src="css/img/hamburger.jpg" alt="hamburger">
+                    <img src="css/img/spaghetti.jpg" alt="spaghetti"><br><br>
+                </div>
+                <div class="menu2" id="menu2">
+                    <img src="css/img/lasagne.jpg" alt="Lasagne">
+                    <img src="css/img/penne.jpg" alt="penne">
+                    <img src="css/img/pizza.jpg" alt="pizza">
+                    <img src="css/img/saumon.jpg" alt="saumon">
+                    <img src="css/img/padThai.jpg" alt="padThai">
+                </div>
+
+            </div>
+            </form>
+            <hr>
+
+            <div class="section_foot">
+                <footer>
+                    <div class="top_foot">
+                        <div class="quick_link">
+                        <ul>
+                            <li><a href="accueil.html">Accueil</a></li>
+                            <li><a href="information.html">Information</a></li>
+                            <li><a href="commande.html">Commande</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </footer>
+                <div class="top_foot">
+                    <p>
+                        © 2018 RepaSain Ltd. Tous droits réservés.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </html>

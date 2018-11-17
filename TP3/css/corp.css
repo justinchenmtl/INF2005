@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: lightgrey;
+    font-size: 20px;
+}
+
+
+hr {
+    border: 2px solid black;
+}
+
+.head {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: white;
+}
+
+.head p {
+    line-height: 40px;
+    margin-top: 20px;
+    background: darkgrey;
+    color: blue;
+}
+
+#form_ident{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: white;
+}
+
+.table {
+    width: 900px;
+    text-align: left;
+    margin-left: 30px;
+    border-collapse: collapse;
+}
+
+.table tr {
+}
+
+.table td{
+    padding: 10px 0px;
+    width: 450px;
+    overflow: hidden;
+}
+
+.table td ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.table input {
+    height: 20px;
+}
+
+.table h5 {
+    text-align: justify;
+
+}
+
+#formProgramme{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: white;
+}
+
+#formProgramme p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 30px;
+    text-align: justify;
+}
+
+#formSecondaire {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: white;
+}
+
+#formSecondaire p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 30px;
+    text-align: justify;
+}
+
+#formUniversitaire{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: white;
+}
+
+#formUniversitaire p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 30px;
+    text-align: justify;
+}
